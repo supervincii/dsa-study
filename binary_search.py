@@ -10,7 +10,7 @@ def binary_search(sorted_list: list, item: int) -> int | None:
     high = len(sorted_list) - 1
     low = 0
 
-    while (low < high):
+    while (low <= high):
         middle = (low + high) // 2
         guess = sorted_list[middle]
 
